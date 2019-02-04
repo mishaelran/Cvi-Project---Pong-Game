@@ -1,0 +1,68 @@
+[main]
+Class="Function"
+Prototype="int main(int argc, char **argv);"
+
+[QuitCallback]
+Class="Function"
+Prototype="int QuitCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[Pongfunction]
+Class="Function"
+Prototype="int Pongfunction(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[okfunc]
+Class="Function"
+Prototype="int okfunc(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[startgamefunc2]
+Class="Function"
+Prototype="int startgamefunc2(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[DrawWhiteRect]
+Class="Function"
+Prototype="void DrawWhiteRect(Rect rect);"
+
+[DrawBal]
+Class="Function"
+Prototype="void DrawBal(int X, int Y);"
+
+[DrawLeftUser]
+Class="Function"
+Prototype="void DrawLeftUser(int X, int Y);"
+
+[clearcanvas]
+Class="Function"
+Prototype="void clearcanvas();"
+
+[DrawRightUser]
+Class="Function"
+Prototype="void DrawRightUser(int X, int Y);"
+
+[check_collision]
+Class="Function"
+Prototype="int check_collision();"
+
+[balltimerfunction]
+Class="Function"
+Prototype="int balltimerfunction(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[threadfunction1]
+Class="Function"
+Prototype="int threadfunction1(void *callbackData);"
+
+[threadfunction2]
+Class="Function"
+Prototype="int threadfunction2(void *callbackData);"
+
+[threadfunction3]
+Class="Function"
+Prototype="int threadfunction3(void *callbackData);"
+
+[threadfunction4]
+Class="Function"
+Prototype="int threadfunction4(void *callbackData);"
+
+[ballthread]
+Class="Function"
+Prototype="int ballthread(void *callbackData);"
+
